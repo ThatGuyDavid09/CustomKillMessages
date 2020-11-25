@@ -1,5 +1,5 @@
 name: CustomKillMessages
-version: 1.0.SNAPSHOT
+version: 1.0.0
 main: thatguydavid09.customkillmessages.CustomKillMessages
 api-version: 1.16
 prefix: CustomKill
