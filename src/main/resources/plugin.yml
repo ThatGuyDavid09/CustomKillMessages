@@ -4,4 +4,15 @@ main: thatguydavid09.customkillmessages.CustomKillMessages
 api-version: 1.16
 prefix: CustomKill
 authors: [ ThatGuyDavid09 ]
-description: This plugin adds a command that allows you to kill a player (including target selectors) with a custom kill message.
+description: This plugin adds a command that allows you to kill a player with a custom kill message.
+
+commands:
+  ckill:
+    description: A kill command that allows for custom kill messages.
+    usage: /<command> <player> <killmessage>
+    permission: customkill.ckill
+
+permissions:
+  customkill.ckill:
+    description: A permission to use the command in this plugin.
+    default: op
