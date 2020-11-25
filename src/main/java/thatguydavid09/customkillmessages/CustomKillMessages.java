@@ -9,7 +9,6 @@ public final class CustomKillMessages extends JavaPlugin {
     private static CustomKillMessages instance;
     @Override
     public void onEnable() {
-        getServer().getConsoleSender().sendRawMessage(ChatColor.GREEN + "CustomKill has been enabled!");
         this.getCommand("ckill").setExecutor(new CustomKill());
         this.getCommand("ckill").setTabCompleter(new CustomKillTabComplete());
         instance = this;
